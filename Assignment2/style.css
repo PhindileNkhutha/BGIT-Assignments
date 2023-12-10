@@ -1,3 +1,4 @@
+/* Global styles for the entire document */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -5,36 +6,44 @@ body {
   box-sizing: border-box;
 }
 
+/* Styling for main heading */
 h1 {
   font-size: 2em;
   color: #333;
 }
 
+/* Styling for paragraphs */
 p {
   font-size: 12px;
   line-height: 16px;
   color: #413f3f;
 }
+
+/* styling for all the span  */
 span {
   color: rgb(8, 11, 189);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 16px;
 }
 
+/* Styling for list items */
 li {
   font-size: 12px;
   line-height: 30px;
-  color: #413f3f;;
+  color: #413f3f;
 }
 
+/* Center-aligning headings 2 */
 h2 {
   text-align: center;
 }
 
+/* Styles for a container class */
 .container {
   background-color: #fff;
 }
 
+/* Styles for the header section */
 .header {
   text-align: center;
   padding: 8px;
@@ -46,6 +55,8 @@ h2 {
   width: 100%;
   top: 0;
 }
+
+/* Styles for the profile section */
 .profile {
   background-color: #f5eeee;
   display: flex;
@@ -55,18 +66,22 @@ h2 {
   box-shadow: 0 0 10px grey;
 }
 
+/* Styles for the image */
 img {
   width: 150px;
   height: 200px;
   display: block;
   padding-left: 20px;
-  
+
   margin-top: 15px;
 }
-.content{
-  margin: 5px;
 
+/* Content styles */
+.content {
+  margin: 5px;
 }
+
+/* Footer style */
 footer {
   background-color: #333;
   color: #fff;
