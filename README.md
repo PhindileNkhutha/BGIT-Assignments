@@ -1,4 +1,0 @@
-# BGIT-Assignments
-Assignments
-
-
