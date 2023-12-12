@@ -6,19 +6,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Styling for main heading */
-h1 {
-  font-size: 2em;
-  color: #333;
-}
-
-/* Styling for paragraphs */
-p {
-  font-size: 12px;
-  line-height: 16px;
-  color: #413f3f;
-}
-
 /* styling for all the span  */
 span {
   color: rgb(8, 11, 189);
