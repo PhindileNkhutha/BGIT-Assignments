@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* nav section styles */
+.navbar {
+  background-color: rgb(152, 202, 202);
+  color: #fff;
+  padding: 10px 0;
+  grid-row: 1;
+  grid-column: 1 / -1;
+}
+
+.navItem {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+.navItem li {
+  margin: 0 15px;
+}
+.navItem li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.navItem li a:hover {
+  background-color: navy;
+}
+.header{
+  text-align: center;
+}
+/* using card to display our team */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Spacing between cards */
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(33.33% - 20px); /* Adjusted width for 3 cards in a row */
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.card img {
+    width: 100%;       
+    height: 300px;     
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0; 
+}
+
+.card h2 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+/* footer */
+.footer{
+  background-color: rgb(152, 202, 202);
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+  .navItem {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navItem li {
+    margin: 10px 0;
+  }
+
+  .card {
+    width: calc(50% - 20px); /* Adjusted width for 2 cards in a row */
+  }
+}
