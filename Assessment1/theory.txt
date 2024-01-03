@@ -1,0 +1,32 @@
+HTML BASICS
+1).What is the purpose of the HTML <DOCTYPE> declaration?
+It specifies the version of HTML that is used in the document and helps the browser to display the page correctly.
+2).Explain the difference between <div> and <span> tags.
+<div> is a block-level element it starts a new line while a <span> is an inline element it doesn't start a new line but takes up as much width as needed
+3).What is semantic HTML, and why is it important?
+They use descriptive tags (meaning elements that describe their meaning e.g nav or footer). These HTML semantics help with accessibility and also makes webpages easier to understand.
+
+CSS FUNDAMENTALS
+1).Describe the difference between margin and padding.
+Margin is the space outside the element border while Padding is the space between the content of an element and its border.
+2).What is box model in CSS?
+Describes how elements on a webpage are structured, including content,border ,margin and padding.It helps determine an element's total size.
+3).Explain the CSS specificity hierarchy?
+Determines which style takes precedence. Inline styles have high priority , followed  by classes and element selectors.
+
+RESPONSIVE DESIGN
+1). What is media query and how is it used in Responsive design?
+It specifies which style are to be applied to a certain size of a screen in order for the webpage to be user friendly.
+2).Discuss the difference between adaptive and responsive design?
+Adaptive design focuses on optimizing for a limited set of device sizes, while responsive design aims to create a universally accessible layout that offers a user-friendly experience across a wide range of screen dimensions.
+3).Explain the concept of a viewport in web development
+A viewport in web development is like a window through which you view a website on a device. It determines how content is displayed and scales on different screen sizes.
+
+HTML and CSS FEATURES
+1).List and briefly explain three new features introduced in HTML5.
+Video and Audio elements. 
+Semantic Html elements like nav , header and footer which gives a clear meaning and structure to webpages.
+2).What are CSS variables, and how do they differ from traditional variables in programming languages?
+These are custom properties that store values that can be used over and over again throughout the stylesheet. e.g if we have a main color that we want to add in a lot of places on our styling we can do this (--home-color : grey)
+3). Discuss the advantages of using Flexbox or Grid layout in CSS?
+Flexbox is good for arranging things is straight line, like  in rows or column while Grid is like a flexible board letting you place items exactly where you want in columns and rows.UTogether , they help make webpages look organized , neat and fit well on all screen sizes.

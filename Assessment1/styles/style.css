@@ -1,0 +1,73 @@
+/* navbar styling */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px ;
+  background-color: rgb(194, 191, 191);
+  color: #fff;
+}
+.navItems {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.navItems a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* form styling */
+.form {
+  width: 1.5em;
+  border: 2px solid rgb(154, 154, 230);
+  width: 350px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  background-color: rgb(194, 191, 191);
+}
+/* removing the ordered list numbers */
+.unordered {
+  text-align: center;
+  list-style: none;
+}
+
+/* removed the underline on the anchor tags */
+ol > li a {
+  text-decoration: none;
+}
+.listHeader {
+  text-align: center;
+}
+
+/* Animation styling */
+@keyframes transform {
+  form {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+#surname:hover {
+  animation: transform 1s infinite alternate;
+}
+
+/* Responsive Design reduced the form size and the navbar to burger menu when the screen size in 600px or lower */
+@media screen and (max-width: 600px) {
+  .form {
+    width: 150px;
+  }
+  nav {
+    display: block;
+    flex-direction: row;
+  }
+  .navItems {
+    list-style: none;
+    padding: 0;
+    display: block;
+  }
+}
