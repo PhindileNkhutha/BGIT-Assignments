@@ -1,0 +1,53 @@
+body {
+  background-color: #fde4e1; /* Light pink background */
+}
+
+.weather-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  background-image: url(./assets/weather-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #ff69b4; /* Hot pink heading */
+}
+
+.btn-primary {
+  background-color: #ff69b4; /* Hot pink button */
+  border-color: #ff69b4; /* Hot pink border */
+}
+
+.btn-primary:hover {
+  background-color: #ff5c9e; /* Darker pink on hover */
+  border-color: #ff5c9e; /* Darker pink on hover */
+}
+
+.form-control {
+  border-color: #ff69b4; /* Hot pink border for input */
+}
+
+.form-check-input:checked {
+  background-color: #ff69b4; /* Hot pink background for checked radio button */
+}
+
+/* Additional styles for a more feminine touch */
+label {
+  color: #ff69b4; /* Hot pink label text */
+}
+
+input[type="text"]::placeholder {
+  color: #ff69b4; /* Hot pink placeholder text */
+}
+
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Feminine font */
+}
+.textDeco {
+  color: #ff69b4;
+}
