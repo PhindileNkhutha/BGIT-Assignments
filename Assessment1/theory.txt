@@ -29,4 +29,4 @@ Semantic Html elements like nav , header and footer which gives a clear meaning 
 2).What are CSS variables, and how do they differ from traditional variables in programming languages?
 These are custom properties that store values that can be used over and over again throughout the stylesheet. e.g if we have a main color that we want to add in a lot of places on our styling we can do this (--home-color : grey)
 3). Discuss the advantages of using Flexbox or Grid layout in CSS?
-Flexbox is good for arranging things is straight line, like  in rows or column while Grid is like a flexible board letting you place items exactly where you want in columns and rows.UTogether , they help make webpages look organized , neat and fit well on all screen sizes.
+Flexbox is good for arranging things is straight line, like  in rows or column while Grid is like a flexible puzzle letting you place items exactly where you want in columns and rows.UTogether , they help make webpages look organized , neat and fit well on all screen sizes.

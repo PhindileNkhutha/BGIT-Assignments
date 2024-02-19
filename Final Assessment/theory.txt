@@ -1,0 +1,61 @@
+1. Explain the concept of closures in JavaScript. Provide an example and discuss why
+closures are important in modern JavaScript development.
+ANSWER:
+A closure in JavaScript lets a function remember and use the variables from the place where it was created, even if that place is no longer active. It's handy for keeping track of information and managing how functions interact with each other.
+
+const createCounter = (function () {
+  let count = 0;
+  return function () {count += 1; return count;}
+})();
+
+function updateCounter(){
+  document.getElementById("counterDisplay").innerHTML = createCounter();
+}
+
+
+2. Describe the differences between var, let, and const in JavaScript. When would you
+use each of them? Provide examples to illustrate your answer.
+ANSWER:
+VAR>>> We use var if we want the variable to be available throughout the whole function, no matter where it's declared. It can also be used before it's declared, but this can sometimes cause unexpected behavior.
+LET>>> We use let if we want the variable to only be available inside the block of code (inside curly braces {}) where it's declared. We can also change the value of a let variable later in the code.
+CONST>>> We use const if we want the variable to only  be available inside the block of code where it's declared, just like let. However, with const, you cannot change the value of the variable once it's set.
+
+
+3. What are higher-order functions in JavaScript? Provide an example of a higher-order
+function and explain its usage.
+ANSWER:
+A "higher-order function" is like a special kind of function that can either take other functions as inputs, or it can give you a new function as an output. It's kind of like a function that can work with or create other functions!
+
+function sayHi() {
+  console.log("Hi!");
+}
+
+function repeatGreeting(repeat) {
+  setInterval(repeat, 1000);
+}
+
+repeatGreeting(sayHi); // Output: "Hi!" every second
+
+//repeatGreeting is a higher-order function because it takes another function (sayHi) as an argument and executes it every second.
+
+
+4. Explain the concept of state and props in React. How do they differ, and how are they
+used in React component development?
+ANSWER:
+STATE>>In React, components can have a special place to store their information called "state." This is like a collection of variables that belong to the component. When the state changes, the component automatically updates to show the new information.
+PROPS>>> are like messages that are sent to a React component to tell it what to show or how to behave. They're passed to components through special attributes in the HTML-like code of React. "Props" is just short for "properties," which are like settings for a component.
+
+Props are like messages you send to a component, telling it what to show or do. State is like the component's memory, keeping track of things that change and updating the component when they do.
+
+
+5. Discuss the concept of component lifecycle methods in React. Provide a brief
+overview of some commonly used lifecycle methods and when they are invoked
+during the component's lifecycle.
+ANSWER:
+The component lifecycle in React is like phases that every component goes through from the time it's created to when it's removed from the screen. It's a set of stages or steps that the component follows.It goes through three main stages:Mounting, Updating and Unmounting.
+
+Mounting: Here, the component is created and added to the screen.
+
+Updating: The component can change its behavior or appearance based on new information or user interactions.
+
+Unmounting: The component is no longer needed and is removed from the screen.
